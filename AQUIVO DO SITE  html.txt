@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LP IPTV - Planos de TV Online</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0f0f0f;
+      color: #ffffff;
+    }
+    header {
+      background-color: #ff0000;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+    }
+    .planos {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .plano {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .plano h2 {
+      margin: 0 0 10px;
+    }
+    .plano p {
+      margin: 5px 0;
+    }
+    .whatsapp-btn {
+      display: block;
+      margin: 30px auto;
+      width: fit-content;
+      padding: 15px 25px;
+      background-color: #25d366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LP IPTV</h1>
+    <p>A melhor TV online da região!</p>
+  </header>
+
+  <div class="container">
+    <h2 style="text-align:center;">Planos disponíveis</h2>
+    <div class="planos">
+      <div class="plano">
+        <h2>Plano Mensal</h2>
+        <p>📺 +9.000 canais e filmes</p>
+        <p>💵 Apenas <strong>R$ 30,00</strong></p>
+        <p>🔒 Teste grátis por 2h</p>
+      </div>
+      <div class="plano">
+        <h2>Plano Trimestral</h2>
+        <p>📺 +9.000 canais e filmes</p>
+        <p>💵 Apenas <strong>R$ 50,00</strong></p>
+        <p>💰 Economia garantida</p>
+      </div>
+    </div>
+
+    <a class="whatsapp-btn" href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C+quero+assinar+o+IPTV+da+LP" target="_blank">
+      💬 Falar no WhatsApp
+    </a>
+  </div>
+
+  <footer>
+    © 2025 - LP IPTV | Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
